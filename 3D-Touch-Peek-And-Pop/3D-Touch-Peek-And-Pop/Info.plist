@@ -6,6 +6,8 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Peek-And-Pop</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -35,26 +37,6 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>CFBundleDisplayName</key>
-	<string>Quick Actions</string>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemIconType</key>
-			<string>UIApplicationShortcutIconTypeSearch</string>
-			<key>UIApplicationShortcutItemSubtitle</key>
-			<string>localizedShortcutSubtitle</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>localizedShortcutTitle</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>my_app_static_basic_shortcut</string>
-			<key>UIApplicationShortcutItemUserInfo</key>
-			<dict>
-				<key>TabIndex</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
 	</array>
 </dict>
 </plist>

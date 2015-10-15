@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		927F7D2B1BCEF265004E4EA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */; };
-		92B464A91BCEB47800DCB8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */; };
-		92B464AB1BCEB47800DCB8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B464AA1BCEB47800DCB8B8 /* ViewController.swift */; };
-		92B464AE1BCEB47800DCB8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B464AC1BCEB47800DCB8B8 /* Main.storyboard */; };
-		92B464B01BCEB47800DCB8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */; };
-		92B464B31BCEB47800DCB8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */; };
+		92F91FA21BCF184600407A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F91FA11BCF184600407A6F /* AppDelegate.swift */; };
+		92F91FA41BCF184600407A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F91FA31BCF184600407A6F /* ViewController.swift */; };
+		92F91FA71BCF184600407A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F91FA51BCF184600407A6F /* Main.storyboard */; };
+		92F91FA91BCF184600407A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F91FA81BCF184600407A6F /* Assets.xcassets */; };
+		92F91FAC1BCF184600407A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F91FAA1BCF184600407A6F /* LaunchScreen.storyboard */; };
+		92F91FB41BCF188700407A6F /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F91FB31BCF188700407A6F /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D-Touch-Quick-Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92B464AA1BCEB47800DCB8B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92B464AD1BCEB47800DCB8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92B464B21BCEB47800DCB8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92B464B41BCEB47800DCB8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F91F9E1BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D-Touch-Peek-And-Pop-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F91FA11BCF184600407A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F91FA31BCF184600407A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92F91FA61BCF184600407A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F91FA81BCF184600407A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F91FAB1BCF184600407A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F91FAD1BCF184600407A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F91FB31BCF188700407A6F /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92B464A21BCEB47800DCB8B8 /* Frameworks */ = {
+		92F91F9B1BCF184600407A6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +37,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		927F7D2C1BCEF545004E4EA9 /* Unrelated */ = {
+		925F099F1BCF2B9A00ADCB15 /* Unrelated */ = {
 			isa = PBXGroup;
 			children = (
-				92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */,
-				92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */,
+				92F91FA11BCF184600407A6F /* AppDelegate.swift */,
+				92F91FA81BCF184600407A6F /* Assets.xcassets */,
+				92F91FAA1BCF184600407A6F /* LaunchScreen.storyboard */,
+				92F91FAD1BCF184600407A6F /* Info.plist */,
 			);
 			name = Unrelated;
 			sourceTree = "<group>";
 		};
-		92B4649C1BCEB47800DCB8B8 = {
+		92F91F951BCF184600407A6F = {
 			isa = PBXGroup;
 			children = (
-				92B464A71BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */,
-				92B464A61BCEB47800DCB8B8 /* Products */,
+				92F91FA01BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard */,
+				92F91F9F1BCF184600407A6F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		92B464A61BCEB47800DCB8B8 /* Products */ = {
+		92F91F9F1BCF184600407A6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */,
+				92F91F9E1BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92B464A71BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */ = {
+		92F91FA01BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */,
-				92B464AA1BCEB47800DCB8B8 /* ViewController.swift */,
-				92B464AC1BCEB47800DCB8B8 /* Main.storyboard */,
-				927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */,
-				92B464B41BCEB47800DCB8B8 /* Info.plist */,
-				927F7D2C1BCEF545004E4EA9 /* Unrelated */,
+				92F91FA31BCF184600407A6F /* ViewController.swift */,
+				92F91FB31BCF188700407A6F /* ColorViewController.swift */,
+				92F91FA51BCF184600407A6F /* Main.storyboard */,
+				925F099F1BCF2B9A00ADCB15 /* Unrelated */,
 			);
-			path = "3D-Touch-Quick-Actions";
+			path = "3D-Touch-Peek-And-Pop-Storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92B464A41BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */ = {
+		92F91F9D1BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92B464B71BCEB47800DCB8B8 /* Build configuration list for PBXNativeTarget "3D-Touch-Quick-Actions" */;
+			buildConfigurationList = 92F91FB01BCF184600407A6F /* Build configuration list for PBXNativeTarget "3D-Touch-Peek-And-Pop-Storyboard" */;
 			buildPhases = (
-				92B464A11BCEB47800DCB8B8 /* Sources */,
-				92B464A21BCEB47800DCB8B8 /* Frameworks */,
-				92B464A31BCEB47800DCB8B8 /* Resources */,
+				92F91F9A1BCF184600407A6F /* Sources */,
+				92F91F9B1BCF184600407A6F /* Frameworks */,
+				92F91F9C1BCF184600407A6F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "3D-Touch-Quick-Actions";
-			productName = "3D-Touch-Quick-Actions";
-			productReference = 92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */;
+			name = "3D-Touch-Peek-And-Pop-Storyboard";
+			productName = "3D-Touch-Peek-And-Pop-Storyboard";
+			productReference = 92F91F9E1BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92B4649D1BCEB47800DCB8B8 /* Project object */ = {
+		92F91F961BCF184600407A6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Alex Zimin";
 				TargetAttributes = {
-					92B464A41BCEB47800DCB8B8 = {
+					92F91F9D1BCF184600407A6F = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 92B464A01BCEB47800DCB8B8 /* Build configuration list for PBXProject "3D-Touch-Quick-Actions" */;
+			buildConfigurationList = 92F91F991BCF184600407A6F /* Build configuration list for PBXProject "3D-Touch-Peek-And-Pop-Storyboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,55 +118,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 92B4649C1BCEB47800DCB8B8;
-			productRefGroup = 92B464A61BCEB47800DCB8B8 /* Products */;
+			mainGroup = 92F91F951BCF184600407A6F;
+			productRefGroup = 92F91F9F1BCF184600407A6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92B464A41BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */,
+				92F91F9D1BCF184600407A6F /* 3D-Touch-Peek-And-Pop-Storyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92B464A31BCEB47800DCB8B8 /* Resources */ = {
+		92F91F9C1BCF184600407A6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B464B31BCEB47800DCB8B8 /* LaunchScreen.storyboard in Resources */,
-				927F7D2B1BCEF265004E4EA9 /* InfoPlist.strings in Resources */,
-				92B464B01BCEB47800DCB8B8 /* Assets.xcassets in Resources */,
-				92B464AE1BCEB47800DCB8B8 /* Main.storyboard in Resources */,
+				92F91FAC1BCF184600407A6F /* LaunchScreen.storyboard in Resources */,
+				92F91FA91BCF184600407A6F /* Assets.xcassets in Resources */,
+				92F91FA71BCF184600407A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92B464A11BCEB47800DCB8B8 /* Sources */ = {
+		92F91F9A1BCF184600407A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B464AB1BCEB47800DCB8B8 /* ViewController.swift in Sources */,
-				92B464A91BCEB47800DCB8B8 /* AppDelegate.swift in Sources */,
+				92F91FA41BCF184600407A6F /* ViewController.swift in Sources */,
+				92F91FB41BCF188700407A6F /* ColorViewController.swift in Sources */,
+				92F91FA21BCF184600407A6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92B464AC1BCEB47800DCB8B8 /* Main.storyboard */ = {
+		92F91FA51BCF184600407A6F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92B464AD1BCEB47800DCB8B8 /* Base */,
+				92F91FA61BCF184600407A6F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */ = {
+		92F91FAA1BCF184600407A6F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92B464B21BCEB47800DCB8B8 /* Base */,
+				92F91FAB1BCF184600407A6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		92B464B51BCEB47800DCB8B8 /* Debug */ = {
+		92F91FAE1BCF184600407A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		92B464B61BCEB47800DCB8B8 /* Release */ = {
+		92F91FAF1BCF184600407A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,26 +255,24 @@
 			};
 			name = Release;
 		};
-		92B464B81BCEB47800DCB8B8 /* Debug */ = {
+		92F91FB11BCF184600407A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "3D-Touch-Quick-Actions/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "3D-Touch-Peek-And-Pop-Storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Quick-Actions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Peek-And-Pop-Storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		92B464B91BCEB47800DCB8B8 /* Release */ = {
+		92F91FB21BCF184600407A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "3D-Touch-Quick-Actions/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "3D-Touch-Peek-And-Pop-Storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Quick-Actions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Peek-And-Pop-Storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -282,25 +280,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92B464A01BCEB47800DCB8B8 /* Build configuration list for PBXProject "3D-Touch-Quick-Actions" */ = {
+		92F91F991BCF184600407A6F /* Build configuration list for PBXProject "3D-Touch-Peek-And-Pop-Storyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B464B51BCEB47800DCB8B8 /* Debug */,
-				92B464B61BCEB47800DCB8B8 /* Release */,
+				92F91FAE1BCF184600407A6F /* Debug */,
+				92F91FAF1BCF184600407A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92B464B71BCEB47800DCB8B8 /* Build configuration list for PBXNativeTarget "3D-Touch-Quick-Actions" */ = {
+		92F91FB01BCF184600407A6F /* Build configuration list for PBXNativeTarget "3D-Touch-Peek-And-Pop-Storyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B464B81BCEB47800DCB8B8 /* Debug */,
-				92B464B91BCEB47800DCB8B8 /* Release */,
+				92F91FB11BCF184600407A6F /* Debug */,
+				92F91FB21BCF184600407A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92B4649D1BCEB47800DCB8B8 /* Project object */;
+	rootObject = 92F91F961BCF184600407A6F /* Project object */;
 }

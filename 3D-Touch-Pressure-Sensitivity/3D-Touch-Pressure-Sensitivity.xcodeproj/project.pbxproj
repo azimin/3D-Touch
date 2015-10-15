@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		927F7D2B1BCEF265004E4EA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */; };
-		92B464A91BCEB47800DCB8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */; };
-		92B464AB1BCEB47800DCB8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B464AA1BCEB47800DCB8B8 /* ViewController.swift */; };
-		92B464AE1BCEB47800DCB8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B464AC1BCEB47800DCB8B8 /* Main.storyboard */; };
-		92B464B01BCEB47800DCB8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */; };
-		92B464B31BCEB47800DCB8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */; };
+		927F7D191BCECCC0004E4EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F7D181BCECCC0004E4EA9 /* AppDelegate.swift */; };
+		927F7D1B1BCECCC0004E4EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F7D1A1BCECCC0004E4EA9 /* ViewController.swift */; };
+		927F7D1E1BCECCC0004E4EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927F7D1C1BCECCC0004E4EA9 /* Main.storyboard */; };
+		927F7D201BCECCC0004E4EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927F7D1F1BCECCC0004E4EA9 /* Assets.xcassets */; };
+		927F7D231BCECCC0004E4EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927F7D211BCECCC0004E4EA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D-Touch-Quick-Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92B464AA1BCEB47800DCB8B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92B464AD1BCEB47800DCB8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92B464B21BCEB47800DCB8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92B464B41BCEB47800DCB8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927F7D151BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D-Touch-Pressure-Sensitivity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927F7D181BCECCC0004E4EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		927F7D1A1BCECCC0004E4EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		927F7D1D1BCECCC0004E4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927F7D1F1BCECCC0004E4EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927F7D221BCECCC0004E4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		927F7D241BCECCC0004E4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92B464A21BCEB47800DCB8B8 /* Frameworks */ = {
+		927F7D121BCECCC0004E4EA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +35,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		927F7D2C1BCEF545004E4EA9 /* Unrelated */ = {
+		925F099E1BCF2B8400ADCB15 /* Unrelated */ = {
 			isa = PBXGroup;
 			children = (
-				92B464AF1BCEB47800DCB8B8 /* Assets.xcassets */,
-				92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */,
+				927F7D181BCECCC0004E4EA9 /* AppDelegate.swift */,
+				927F7D1C1BCECCC0004E4EA9 /* Main.storyboard */,
+				927F7D1F1BCECCC0004E4EA9 /* Assets.xcassets */,
+				927F7D211BCECCC0004E4EA9 /* LaunchScreen.storyboard */,
+				927F7D241BCECCC0004E4EA9 /* Info.plist */,
 			);
 			name = Unrelated;
 			sourceTree = "<group>";
 		};
-		92B4649C1BCEB47800DCB8B8 = {
+		927F7D0C1BCECCC0004E4EA9 = {
 			isa = PBXGroup;
 			children = (
-				92B464A71BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */,
-				92B464A61BCEB47800DCB8B8 /* Products */,
+				927F7D171BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity */,
+				927F7D161BCECCC0004E4EA9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		92B464A61BCEB47800DCB8B8 /* Products */ = {
+		927F7D161BCECCC0004E4EA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */,
+				927F7D151BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92B464A71BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */ = {
+		927F7D171BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity */ = {
 			isa = PBXGroup;
 			children = (
-				92B464A81BCEB47800DCB8B8 /* AppDelegate.swift */,
-				92B464AA1BCEB47800DCB8B8 /* ViewController.swift */,
-				92B464AC1BCEB47800DCB8B8 /* Main.storyboard */,
-				927F7D2A1BCEF265004E4EA9 /* InfoPlist.strings */,
-				92B464B41BCEB47800DCB8B8 /* Info.plist */,
-				927F7D2C1BCEF545004E4EA9 /* Unrelated */,
+				927F7D1A1BCECCC0004E4EA9 /* ViewController.swift */,
+				925F099E1BCF2B8400ADCB15 /* Unrelated */,
 			);
-			path = "3D-Touch-Quick-Actions";
+			path = "3D-Touch-Pressure-Sensitivity";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92B464A41BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */ = {
+		927F7D141BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92B464B71BCEB47800DCB8B8 /* Build configuration list for PBXNativeTarget "3D-Touch-Quick-Actions" */;
+			buildConfigurationList = 927F7D271BCECCC0004E4EA9 /* Build configuration list for PBXNativeTarget "3D-Touch-Pressure-Sensitivity" */;
 			buildPhases = (
-				92B464A11BCEB47800DCB8B8 /* Sources */,
-				92B464A21BCEB47800DCB8B8 /* Frameworks */,
-				92B464A31BCEB47800DCB8B8 /* Resources */,
+				927F7D111BCECCC0004E4EA9 /* Sources */,
+				927F7D121BCECCC0004E4EA9 /* Frameworks */,
+				927F7D131BCECCC0004E4EA9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "3D-Touch-Quick-Actions";
-			productName = "3D-Touch-Quick-Actions";
-			productReference = 92B464A51BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions.app */;
+			name = "3D-Touch-Pressure-Sensitivity";
+			productName = "3D-Touch-Pressure-Sensitivity";
+			productReference = 927F7D151BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92B4649D1BCEB47800DCB8B8 /* Project object */ = {
+		927F7D0D1BCECCC0004E4EA9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Alex Zimin";
 				TargetAttributes = {
-					92B464A41BCEB47800DCB8B8 = {
+					927F7D141BCECCC0004E4EA9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5MGEMLZRS4;
 					};
 				};
 			};
-			buildConfigurationList = 92B464A01BCEB47800DCB8B8 /* Build configuration list for PBXProject "3D-Touch-Quick-Actions" */;
+			buildConfigurationList = 927F7D101BCECCC0004E4EA9 /* Build configuration list for PBXProject "3D-Touch-Pressure-Sensitivity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,55 +116,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 92B4649C1BCEB47800DCB8B8;
-			productRefGroup = 92B464A61BCEB47800DCB8B8 /* Products */;
+			mainGroup = 927F7D0C1BCECCC0004E4EA9;
+			productRefGroup = 927F7D161BCECCC0004E4EA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92B464A41BCEB47800DCB8B8 /* 3D-Touch-Quick-Actions */,
+				927F7D141BCECCC0004E4EA9 /* 3D-Touch-Pressure-Sensitivity */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92B464A31BCEB47800DCB8B8 /* Resources */ = {
+		927F7D131BCECCC0004E4EA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B464B31BCEB47800DCB8B8 /* LaunchScreen.storyboard in Resources */,
-				927F7D2B1BCEF265004E4EA9 /* InfoPlist.strings in Resources */,
-				92B464B01BCEB47800DCB8B8 /* Assets.xcassets in Resources */,
-				92B464AE1BCEB47800DCB8B8 /* Main.storyboard in Resources */,
+				927F7D231BCECCC0004E4EA9 /* LaunchScreen.storyboard in Resources */,
+				927F7D201BCECCC0004E4EA9 /* Assets.xcassets in Resources */,
+				927F7D1E1BCECCC0004E4EA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92B464A11BCEB47800DCB8B8 /* Sources */ = {
+		927F7D111BCECCC0004E4EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B464AB1BCEB47800DCB8B8 /* ViewController.swift in Sources */,
-				92B464A91BCEB47800DCB8B8 /* AppDelegate.swift in Sources */,
+				927F7D1B1BCECCC0004E4EA9 /* ViewController.swift in Sources */,
+				927F7D191BCECCC0004E4EA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92B464AC1BCEB47800DCB8B8 /* Main.storyboard */ = {
+		927F7D1C1BCECCC0004E4EA9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92B464AD1BCEB47800DCB8B8 /* Base */,
+				927F7D1D1BCECCC0004E4EA9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		92B464B11BCEB47800DCB8B8 /* LaunchScreen.storyboard */ = {
+		927F7D211BCECCC0004E4EA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92B464B21BCEB47800DCB8B8 /* Base */,
+				927F7D221BCECCC0004E4EA9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		92B464B51BCEB47800DCB8B8 /* Debug */ = {
+		927F7D251BCECCC0004E4EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		92B464B61BCEB47800DCB8B8 /* Release */ = {
+		927F7D261BCECCC0004E4EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,26 +252,28 @@
 			};
 			name = Release;
 		};
-		92B464B81BCEB47800DCB8B8 /* Debug */ = {
+		927F7D281BCECCC0004E4EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "3D-Touch-Quick-Actions/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "3D-Touch-Pressure-Sensitivity/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Quick-Actions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Pressure-Sensitivity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		92B464B91BCEB47800DCB8B8 /* Release */ = {
+		927F7D291BCECCC0004E4EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "3D-Touch-Quick-Actions/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "3D-Touch-Pressure-Sensitivity/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Quick-Actions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.-D-Touch-Pressure-Sensitivity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -282,25 +281,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92B464A01BCEB47800DCB8B8 /* Build configuration list for PBXProject "3D-Touch-Quick-Actions" */ = {
+		927F7D101BCECCC0004E4EA9 /* Build configuration list for PBXProject "3D-Touch-Pressure-Sensitivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B464B51BCEB47800DCB8B8 /* Debug */,
-				92B464B61BCEB47800DCB8B8 /* Release */,
+				927F7D251BCECCC0004E4EA9 /* Debug */,
+				927F7D261BCECCC0004E4EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92B464B71BCEB47800DCB8B8 /* Build configuration list for PBXNativeTarget "3D-Touch-Quick-Actions" */ = {
+		927F7D271BCECCC0004E4EA9 /* Build configuration list for PBXNativeTarget "3D-Touch-Pressure-Sensitivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B464B81BCEB47800DCB8B8 /* Debug */,
-				92B464B91BCEB47800DCB8B8 /* Release */,
+				927F7D281BCECCC0004E4EA9 /* Debug */,
+				927F7D291BCECCC0004E4EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92B4649D1BCEB47800DCB8B8 /* Project object */;
+	rootObject = 927F7D0D1BCECCC0004E4EA9 /* Project object */;
 }
