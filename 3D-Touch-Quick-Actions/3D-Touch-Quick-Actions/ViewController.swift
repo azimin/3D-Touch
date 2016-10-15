@@ -14,39 +14,39 @@ class ViewController: UIViewController {
     super.viewDidLoad()
   }
   
-  @IBAction func setupShortcutAction(sender: AnyObject) {
-    let alertController = UIAlertController(title: "Setup shorcut action", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+  @IBAction func setupShortcutAction(_ sender: AnyObject) {
+    let alertController = UIAlertController(title: "Setup shorcut action", message: nil, preferredStyle: UIAlertControllerStyle.alert)
     
-    let addAction = UIAlertAction(title: "Add", style: .Default) { (_) in
+    let addAction = UIAlertAction(title: "Add", style: .default) { (_) in
       let titleTextField = alertController.textFields![0] as UITextField
       let subtitleTextField = alertController.textFields![1] as UITextField
       
       self.setupShortcut(titleTextField.text ?? "Umpty", subtitle: subtitleTextField.text ?? "")
     }
-    let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (_) in }
+    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
     
-    alertController.addTextFieldWithConfigurationHandler { (textField) in
+    alertController.addTextField { (textField) in
       textField.placeholder = "Title"
     }
     
-    alertController.addTextFieldWithConfigurationHandler { (textField) in
+    alertController.addTextField { (textField) in
       textField.placeholder = "Subtitle"
     }
     
     alertController.addAction(cancelAction)
     alertController.addAction(addAction)
     
-    self.presentViewController(alertController, animated: true, completion: nil)
+    self.present(alertController, animated: true, completion: nil)
   }
 
-  func setupShortcut(title: String, subtitle: String) {
+  func setupShortcut(_ title: String, subtitle: String) {
     let shortcutExample = UIMutableApplicationShortcutItem(type: basicShortcutDynamicTypeString, localizedTitle: title)
-    shortcutExample.icon = UIApplicationShortcutIcon(type: .Add) // inco of shortcut, will be discribed later
+    shortcutExample.icon = UIApplicationShortcutIcon(type: .add) // inco of shortcut, will be discribed later
     shortcutExample.localizedSubtitle = subtitle
-    shortcutExample.userInfo = ["TabIndex" : 2]
+    shortcutExample.userInfo = ["TabIndex" : 2 as NSSecureCoding]
     
     // Update the application providing the initial 'dynamic' shortcut items.
-    UIApplication.sharedApplication().shortcutItems = [shortcutExample]
+    UIApplication.shared.shortcutItems = [shortcutExample]
   }
   
 }

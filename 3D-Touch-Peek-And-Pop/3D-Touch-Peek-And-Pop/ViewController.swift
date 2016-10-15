@@ -23,54 +23,54 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   
-    if traitCollection.forceTouchCapability == .Available {
-      registerForPreviewingWithDelegate(self, sourceView: collectionView)
+    if traitCollection.forceTouchCapability == .available {
+      registerForPreviewing(with: self, sourceView: collectionView)
     } 
   }
   
-  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "PresentItem", let color = sender as? UIColor {
-      let colorViewController = segue.destinationViewController as? ColorViewController
+      let colorViewController = segue.destination as? ColorViewController
       colorViewController?.color = color
     }
   }
 }
 
 extension ViewController: UICollectionViewDataSource {
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return colors.count
   }
   
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
-    cell.backgroundColor = colors[indexPath.row]
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+    cell.backgroundColor = colors[(indexPath as NSIndexPath).row]
     return cell
   }
 }
 
 extension ViewController: UICollectionViewDelegate {
-  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-    collectionView.deselectItemAtIndexPath(indexPath, animated: true)
-    self.performSegueWithIdentifier("PresentItem", sender: colors[indexPath.row])
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    collectionView.deselectItem(at: indexPath, animated: true)
+    self.performSegue(withIdentifier: "PresentItem", sender: colors[(indexPath as NSIndexPath).row])
   }
 }
 
 extension ViewController: UIViewControllerPreviewingDelegate {
-  func previewingContext(previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
-    guard let indexPath = collectionView.indexPathForItemAtPoint(location),
-      cell = collectionView.cellForItemAtIndexPath(indexPath) else { return nil }
+  func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
+    guard let indexPath = collectionView.indexPathForItem(at: location),
+      let cell = collectionView.cellForItem(at: indexPath) else { return nil }
     
-    guard let detailViewController = storyboard?.instantiateViewControllerWithIdentifier("ColorViewController") as? ColorViewController else { return nil }
+    guard let detailViewController = storyboard?.instantiateViewController(withIdentifier: "ColorViewController") as? ColorViewController else { return nil }
     
     detailViewController.preferredContentSize = CGSize(width: 300, height: 300)
-    detailViewController.color = colors[indexPath.row]
+    detailViewController.color = colors[(indexPath as NSIndexPath).row]
     previewingContext.sourceRect = cell.frame
     
     return detailViewController
   }
   
-  func previewingContext(previewingContext: UIViewControllerPreviewing, commitViewController viewControllerToCommit: UIViewController) {
-    showViewController(viewControllerToCommit, sender: nil)
+  func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {
+    show(viewControllerToCommit, sender: nil)
   }
 }
 

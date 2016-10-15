@@ -20,17 +20,17 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
   
-  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "PreviewColor" {
-      let colorViewController = segue.destinationViewController as? ColorViewController
+      let colorViewController = segue.destination as? ColorViewController
       // Button will be configured in `viewDidLoad:`
-      colorViewController?.state = .Preview
+      colorViewController?.state = .preview
     }
 
     if segue.identifier == "PresentColor" {
-      let colorViewController = segue.destinationViewController as? ColorViewController
+      let colorViewController = segue.destination as? ColorViewController
       // Button will be configured in `didSet` of `state` property
-      colorViewController?.state = .Present
+      colorViewController?.state = .present
     }
   }
 

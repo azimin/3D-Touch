@@ -12,9 +12,9 @@ class ColorViewController: UIViewController {
   
   @IBOutlet weak var colorView: UIView!
   
-  var color: UIColor = UIColor.blackColor() {
+  var color: UIColor = UIColor.black {
     didSet {
-      if self.isViewLoaded() {
+      if self.isViewLoaded {
         colorView.backgroundColor = color
       }
     }
@@ -27,20 +27,20 @@ class ColorViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
   
-  override func previewActionItems() -> [UIPreviewActionItem] {
-    let basicItem = UIPreviewAction(title: "Copy", style: .Default) { (action, viewController) -> Void in
+  override var previewActionItems: [UIPreviewActionItem] {
+    let basicItem = UIPreviewAction(title: "Copy", style: .default) { (action, viewController) -> Void in
       print("Copy action")
     }
     
-    let removeItem = UIPreviewAction(title: "Remove", style: .Destructive) { (action, viewController) -> Void in
+    let removeItem = UIPreviewAction(title: "Remove", style: .destructive) { (action, viewController) -> Void in
       print("Remove action")
     }
     
-    let dublicateItem = UIPreviewAction(title: "Dublicate", style: .Default) { (action, viewController) -> Void in
+    let dublicateItem = UIPreviewAction(title: "Dublicate", style: .default) { (action, viewController) -> Void in
       print("Dublicate action")
     }
     
-    let groupOfActions = UIPreviewActionGroup(title: "UI Actions...", style: .Default, actions: [removeItem, dublicateItem])
+    let groupOfActions = UIPreviewActionGroup(title: "UI Actions...", style: .default, actions: [removeItem, dublicateItem])
     
     return [basicItem, groupOfActions]
   }

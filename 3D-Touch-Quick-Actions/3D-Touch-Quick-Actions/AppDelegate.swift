@@ -17,14 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
 
 
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
     
-    if let shortcutItems = application.shortcutItems where shortcutItems.isEmpty {
+    if let shortcutItems = application.shortcutItems , shortcutItems.isEmpty {
       let shortcutExample = UIMutableApplicationShortcutItem(type: basicShortcutDynamicTypeString, localizedTitle: "Select 3rd tab")
       shortcutExample.localizedSubtitle = "Will select 3rd tab" // subtitle of shortcut
-      shortcutExample.icon = UIApplicationShortcutIcon(type: .Add) // inco of shortcut, will be discribed later
-      shortcutExample.userInfo = ["TabIndex": 2] // additional info, must be [String : NSSecureCoding]
+      shortcutExample.icon = UIApplicationShortcutIcon(type: .add) // inco of shortcut, will be discribed later
+      shortcutExample.userInfo = ["TabIndex": 2 as NSSecureCoding] // additional info, must be [String : NSSecureCoding]
       
       // Update the application providing the initial 'dynamic' shortcut items.
       application.shortcutItems = [shortcutExample]
@@ -33,14 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     return true
   }
 
-  func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: Bool -> Void) {
+  func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
     let handled = handleShortcutItem(shortcutItem)
     completionHandler(handled)
   }
   
   // MARK: - Handling
   
-  func handleShortcutItem(shortcutItem: UIApplicationShortcutItem) -> Bool { 
+  func handleShortcutItem(_ shortcutItem: UIApplicationShortcutItem) -> Bool { 
     if shortcutItem.type != basicShortcutDynamicTypeString && shortcutItem.type != basicShortcutStaticTypeString  {
       return false
     }

@@ -17,7 +17,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    if self.traitCollection.forceTouchCapability == .Available {
+    if self.traitCollection.forceTouchCapability == .available {
       supportedLabel.text = "Supported: 1"
     }
     // Do any additional setup after loading the view, typically from a nib.
@@ -28,8 +28,8 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-    super.touchesBegan(touches, withEvent: event)
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    super.touchesBegan(touches, with: event)
     
     let touch = touches.first
     
@@ -37,24 +37,24 @@ class ViewController: UIViewController {
     changeCurrent(touch?.force ?? 0)
   }
   
-  override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
-    super.touchesMoved(touches, withEvent: event)
+  override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    super.touchesMoved(touches, with: event)
     
     let touch = touches.first
     changeCurrent(touch?.force ?? 0)
   }
   
-  override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-    super.touchesEnded(touches, withEvent: event)
+  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    super.touchesEnded(touches, with: event)
     changeCurrent(0)
   }
   
-  override func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?) {
-    super.touchesCancelled(touches, withEvent: event)
+  override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    super.touchesCancelled(touches, with: event)
     changeCurrent(0)
   }
   
-  func changeCurrent(value: CGFloat) {
+  func changeCurrent(_ value: CGFloat) {
     self.currentLavelLabel.text = "Current level: \(String(format: "%.2f", value))"
   }
 

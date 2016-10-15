@@ -9,18 +9,18 @@
 import UIKit
 
 enum ColorViewState: String {
-  case Present, Preview
+  case present, preview
 }
 
 // One class segue with differet apperance
 
 class ColorViewController: UIViewController {
   
-  var state: ColorViewState = .Present {
+  var state: ColorViewState = .present {
     didSet {
       // To avoid view loading in `prepareForSegue` if view not on UI yet
-      if self.isViewLoaded() {
-        navigationBar.hidden = state == .Preview
+      if self.isViewLoaded {
+        navigationBar.isHidden = (state == .preview)
         infoLabel.text = state.rawValue
       }
     }
@@ -32,11 +32,11 @@ class ColorViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    navigationBar.hidden = state == .Preview
+    navigationBar.isHidden = state == .preview
     infoLabel.text = state.rawValue
   }
   
-  @IBAction func closeButtonItemAction(sender: UIBarButtonItem) {
-    self.dismissViewControllerAnimated(true, completion: nil)
+  @IBAction func closeButtonItemAction(_ sender: UIBarButtonItem) {
+    self.dismiss(animated: true, completion: nil)
   }
 }
