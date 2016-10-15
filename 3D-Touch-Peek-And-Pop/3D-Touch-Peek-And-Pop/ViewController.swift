@@ -63,7 +63,7 @@ extension ViewController: UIViewControllerPreviewingDelegate {
     guard let detailViewController = storyboard?.instantiateViewController(withIdentifier: "ColorViewController") as? ColorViewController else { return nil }
     
     detailViewController.preferredContentSize = CGSize(width: 300, height: 300)
-    detailViewController.color = colors[(indexPath as NSIndexPath).row]
+    detailViewController.color = colors[indexPath.row]
     previewingContext.sourceRect = cell.frame
     
     return detailViewController
